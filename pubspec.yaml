@@ -1,4 +1,4 @@
-name: youtube_client
+name: iflutuber
 
 description: A Flutter application for searching Youtube videos.
 
@@ -12,14 +12,18 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  http: ^0.13.5
-  shared_preferences: ^2.0.18
-  url_launcher: ^6.2.0
+  http: ^1.2.1
+  shared_preferences: ^2.2.2
+  url_launcher: ^6.2.5
+  video_player: ^2.8.3
+  flutter_bloc: ^8.1.5
+  bloc: ^8.1.4
+  equatable: ^2.0.5
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^2.0.0
+  flutter_lints: ^3.0.2
 
 flutter:
   uses-material-design: true
