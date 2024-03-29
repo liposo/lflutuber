@@ -1,0 +1,29 @@
+name: youtube_client
+
+description: A Flutter application for searching Youtube videos.
+
+publish_to: none  # This app is not intended for publishing
+
+version: 1.0.0
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.5
+  shared_preferences: ^2.0.18
+  url_launcher: ^6.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+# Optional: Add icons for search and video play functionality (replace with desired packages)
+# -cupertino_icons: ^1.1.3  # For iOS-style icons
+
+# ... (other sections if needed)
